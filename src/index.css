@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.task {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.task p {
+  display: block;
+  width: 70%;
+}
+
+.task button{
+  padding: 10px;
+  height: 40px;
+}
+
+form {
+  margin-top: 20px;
+}
